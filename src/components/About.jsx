@@ -55,7 +55,7 @@ const AboutMe = ({ setVisible }) => {
                         initial={{ scale: 0 }}
                         animate={{ scale: aniVisible ? 1 : 0 }}
                         transition={{
-                            duration: 0.5,
+                            duration: 2,
                             delay: 1.5,
                         }}
                         className="my-5 text-lg max-w-xl"
