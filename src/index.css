@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+  /* Likely future */
+}
+
+html{
+  @apply text-[8px] md:text-[16px]
+}
+
+@layer base {
+  html {
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #212c42;
+}
+
+::-webkit-scrollbar-track {
+  background: #111827;
+}
+
+.pink {
+  background: linear-gradient(94deg, rgba(221, 196, 143, 1) 0%, rgba(255, 151, 201, 1) 100%);
+}
+
+.blue {
+  background: linear-gradient(94deg, rgb(154, 153, 202) 0%, rgba(131, 219, 255, 1) 100%);
+}
+
+.white {
+  background: linear-gradient(94deg, rgba(153, 152, 159, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.cyan {
+  background: linear-gradient(94deg, rgba(210, 180, 255, 1) 0%, rgba(158, 226, 219, 1) 100%);
+}
+
+.icon {
+  @apply w-[3.75rem] h-[3.75rem] object-contain
+}
+
+.sm-item {
+  @apply w-32 h-32 rounded-full flex items-center justify-center mx-4 md:mx-10;
+}
+
+.sm-item:hover {
+  opacity: 90%;
+}
+
+.burn {
+  transition: all 0.5s;
+  filter: grayscale(0%);
+  background-color: white;
+  @apply text-dark font-semibold
+}
+
+li {
+  position: relative;
+  text-align: center;
+}
+
+.nav>li::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: black;
+  transition: all 0.5s;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.dark .nav>li::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  transition: all 0.5s;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav>li:hover::before {
+  width: 100%;
+}
+
+.about>li::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1.5px;
+  background: linear-gradient(94deg, rgb(154, 153, 202) 0%, rgba(131, 219, 255, 1) 100%);
+  transition: all 0.5s;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.about>li {
+  background: -webkit-linear-gradient(94deg, rgb(65, 62, 231) 0%, rgba(131, 219, 255, 1) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dark .about>li {
+  background: -webkit-linear-gradient(94deg, rgb(154, 153, 202) 0%, rgba(131, 219, 255, 1) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about>.active::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  height: 1.5px;
+  background-color: white;
+  transition: all 0.5s;
+}
+
+.about>li:hover::before {
+  width: 100%;
+}
+
+.button{
+  @apply blue py-2 px-3 rounded-lg text-gray-700 font-medium relative hover:scale-[1.03] ;
+  transition: all 0.5s;
+}
+
+.button::after{
+  @apply mx-2 bg-gray-700 w-0 h-px;
+  content: "";
+  position: absolute;
+  transition: all 0.5s;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+}
+
+.button:hover::after {
+  width: 85%;
+}
+
+.item-scale:hover {
+  scale: 0;
+}
