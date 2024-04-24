@@ -18,6 +18,7 @@ import jumovie from './jumovie.png';
 import todoapp from './todoapp.png';
 import kaliabu from './kaliabu.jpeg';
 import rahgadget from './rahgadget.jpeg';
+import bookshelf from './bookshelf.png';
 
 export {
     css,
@@ -39,5 +40,6 @@ export {
     rahgadget,
     todoapp,
     csharp,
+    bookshelf,
     vbnet,
 }

@@ -1,4 +1,4 @@
-import { kulinerKita, animeList, lyriks, taskmate, jumovie, kaliabu, rahgadget, todoapp } from ".."
+import { kulinerKita, animeList, lyriks, taskmate, jumovie, kaliabu, rahgadget, todoapp, bookshelf } from ".."
 
 export const project = [
     {
@@ -24,6 +24,19 @@ export const project = [
         ],
         github: "https://github.com/juhan26/todo-app", 
         web: "https://jutodo-app.vercel.app/" 
+    },
+    {
+        name: "Bookshelf Apps",
+        img: bookshelf,
+        desc: "This Webapps allows users to create, manage, and save books.",
+        tech: [
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "Local Storage",
+        ],
+        github: "https://github.com/juhan26/bookshelf-apps", 
+        web: "https://jubookshelf-apps.vercel.app/" 
     },
     
 ]
