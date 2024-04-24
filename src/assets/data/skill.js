@@ -6,12 +6,12 @@ export const skill = [
     {
         name: "ReactJs",
         img: react,
-        text: "ReactJs is a JavaScript library used to build component-based interactive user interfaces"
+        text: "ReactJs is a JavaScript library used to build component-based interactive user interfaces."
     },
     {
         name: "CSS",
         img: css,
-        text: "Cascading Style Sheets are rules for managing several components in a web so that it will be more structured and uniform"
+        text: "Cascading Style Sheets are rules for managing several components in a web so that it will be more structured and uniform."
     },
     {
         name: "TailwindCSS",
