@@ -1,4 +1,4 @@
-import { kulinerKita, animeList, lyriks, taskmate, jumovie, kaliabu, rahgadget } from ".."
+import { kulinerKita, animeList, lyriks, taskmate, jumovie, kaliabu, rahgadget, todoapp } from ".."
 
 export const project = [
     {
@@ -13,15 +13,17 @@ export const project = [
         web: "https://jumovie.vercel.app/" 
     },
     {
-        name: "Jumovie",
-        img: jumovie,
-        desc: "This is a website that my team and I developed during our internship at BCC (Filkom UB community) as front-end web developers. It can be used to search for studios, musical instruments, and music events online.",
+        name: "Todoapp",
+        img: todoapp,
+        desc: "This Webapps allows users to create, manage, and save todos, all while enjoying a beautiful user interface design.",
         tech: [
-            "React JS",
-            "OMDB API",
+            "HTML5",
+            "Tailwind",
+            "Javascript",
+            "Local Storage",
         ],
-        github: "https://github.com/juhan26/Jumovie", 
-        web: "https://jumovie.vercel.app/" 
+        github: "https://github.com/juhan26/todo-app", 
+        web: "https://jutodo-app.vercel.app/" 
     },
     
 ]

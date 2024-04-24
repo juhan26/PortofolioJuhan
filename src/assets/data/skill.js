@@ -1,5 +1,5 @@
 import {
-    react, tailwind, css, html, sass, ts, firebase, js, next, nodejs
+    react, tailwind, css, html, sass, ts, firebase, js, next, nodejs, vbnet, csharp
 } from ".."
 
 export const skill = [
@@ -26,9 +26,9 @@ export const skill = [
         text: "Hypertext Markup Language is used to create web pages. It is used to define the structure and content of a web page."
     },
     {
-        name: "SASS",
-        img: sass,
-        text: "Syntactically Awesome Style Sheets is a CSS preprocessor that allows you to write CSS in a more organized and efficient way, including features such as variables, nesting, and mixins."
+        name: "VB.NET",
+        img: vbnet,
+        text: "Microsoft Visual Basic .NET is a tool for developing and building applications that run on the .NET Framework system, using the BASIC language."
     },
     {
         name: "Typescript",
@@ -36,20 +36,20 @@ export const skill = [
         text: "TypeScript is a programming language that is an extension of JavaScript and adds features such as typed data and classes."
     },
     {
-        name: "Firebase",
-        img: firebase,
-        text: "Firebase is a platform developed by Google that provides various services such as databases, hosting, and authentication for mobile and web applications."
+        name: "C#",
+        img: csharp,
+        text: "C# is a general-purpose high-level programming language supporting multiple paradigms."
     },
     {
         name: "Javascript",
         img: js,
         text: "Javascript is a programming language used to add interactivity and dynamic behavior to websites."
     },
-    {
-        name: "NextJs",
-        img: next,
-        text: "NextJs is a Framework that makes building web apps easy, with automatic code splitting and server-rendered pages."
-    },
+    // {
+    //     name: "NextJs",
+    //     img: next,
+    //     text: "NextJs is a Framework that makes building web apps easy, with automatic code splitting and server-rendered pages."
+    // },
     {
         name: "NodeJs",
         img: nodejs,
