@@ -1,16 +1,17 @@
-import { kulinerKita, animeList, lyriks, taskmate, jumovie, kaliabu, rahgadget, todoapp, bookshelf } from ".."
+import { kulinerKita, animeList, lyriks, taskmate, jumovie, kaliabu, rahgadget, todoapp, bookshelf, midtrans } from ".."
 
 export const project = [
     {
-        name: "Jumovie",
-        img: jumovie,
-        desc: "This is my website and I developed during our study at SMKN 2 Mataram as Member. It can be used to search for searching Movie, Rating.",
+        name: "Payment Gateway Midtrans",
+        img: midtrans,
+        desc: "Can be used to create 'testing' transactions (usually performed from your development/testing environment). All transaction made within this environment mode is not 'real', and does not require 'real paymentfund'. You can simulate a test-payment via Sandbox Simulator to change the payment status, as if it has been paid. This environment is created automatically when you are signing up, and free to use.",
         tech: [
-            "React JS",
-            "OMDB API",
+            "NextJS",
+            "NodeJS",
+            "Javascript",
         ],
-        github: "https://github.com/juhan26/Jumovie", 
-        web: "https://jumovie.vercel.app/" 
+        github: "https://github.com/juhan26/paymentgateway-midtrans", 
+        web: "" 
     },
     {
         name: "Todoapp",
@@ -37,6 +38,17 @@ export const project = [
         ],
         github: "https://github.com/juhan26/bookshelf-apps", 
         web: "https://jubookshelf-apps.vercel.app/" 
+    },
+    {
+        name: "Jumovie",
+        img: jumovie,
+        desc: "This is my website and I developed during our study at SMKN 2 Mataram as Member. It can be used to search for searching Movie, Rating.",
+        tech: [
+            "React JS",
+            "OMDB API",
+        ],
+        github: "https://github.com/juhan26/Jumovie", 
+        web: "https://jumovie.vercel.app/" 
     },
     
 ]

@@ -19,9 +19,11 @@ import todoapp from './todoapp.png';
 import kaliabu from './kaliabu.jpeg';
 import rahgadget from './rahgadget.jpeg';
 import bookshelf from './bookshelf.png';
+import midtrans from './midtrans.png';
 
 export {
     css,
+    midtrans,
     react,
     html,
     tailwind,
