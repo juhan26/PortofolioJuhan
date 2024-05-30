@@ -17,7 +17,7 @@ const ProjectCard = ({ projects }) => {
                         target="_blank"
                         href={projects.web || projects.github}>
                         <motion.img
-                        initial= {{scale: 0}}
+                        initial= {{scale: 0}} 
                         animate={{ scale: imgVisible ? 1 : 0 }}
                         transition={{ duration: .8 }}    
                         src={projects.img} alt={projects.name} className="w-full h-full rounded-md hover:opacity-80" />

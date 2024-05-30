@@ -99,7 +99,7 @@ const Home = () => {
                         Hello,
                         <TypeAnimation
                             sequence={[
-                                "I'm Juhanda Azril K",
+                                "I'm Juhanda Azril Kamal",
                                 1500,
                                 "I'm Front-end Developer",
                                 1500,
