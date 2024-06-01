@@ -58,7 +58,7 @@ const AboutMe = ({ setVisible }) => {
                             duration: 2,
                             delay: 1,
                         }}
-                        className="my-5 text-lg max-w-xl"
+                        className="my-7 text-lg max-w-xl"
                     >
                         My name is Juhanda Azril Kamal, I'm from indonesia and now i'm
                         learning React as a Front-end developer. I'm learning React by
