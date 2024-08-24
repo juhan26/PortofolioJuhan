@@ -1,4 +1,4 @@
-import { kulinerKita, animeList, lyriks, taskmate, jumovie, kaliabu, rahgadget, todoapp, bookshelf, midtrans } from ".."
+import { kulinerKita, animeList, lyriks, taskmate, jumovie, kaliabu, rahgadget, todoapp, bookshelf, midtrans, rentalmobil, perpus, kontrakan} from ".."
 
 export const project = [
     {
@@ -49,6 +49,56 @@ export const project = [
         ],
         github: "https://github.com/juhan26/Jumovie", 
         web: "https://jumovie.vercel.app/" 
+    },
+    {
+        name: "Rental Mobil",
+        img: rentalmobil,
+        desc: "This web application allows you to create, manage, and save your rental data effortlessly, all while enjoying a beautiful user interface design.",
+        tech: [
+            "PHP",
+            "Bootstrap",
+            "Javascript",
+            "HTML5",
+            "CSS3",
+        ],
+        github: "https://github.com/juhan26/RentalMobil", 
+        web: "" 
+    },
+    {
+        name: "Sistem Perpustakaan",
+        img: perpus,
+        desc: "This web application allows you to create, manage, and save your library data effortlessly, all while enjoying a beautiful user interface design.",
+        tech: [
+            "Laravel",
+            "PHP",
+            "Bootstrap",
+            "Javascript",
+            "HTML5",
+            "CSS3",
+        ],
+        github: "https://github.com/juhan26/LaravelPerpus", 
+        web: ""
+    },
+    {
+        name: "Manajemen Kontrakan (Mini Project)",
+        img: kontrakan,
+        desc: "This web application features a landing page that includes sections for Properties Page, an About Us page, and feedback from tenants who have an account. The web application also includes a CMS to manage the content on the landing page, along with a feature to pay rent from the start date to the end date of the contract.",
+        tech: [
+            "Laravel",
+            "PHP",
+            "Bootstrap",
+            "Tailwind",
+            "TiltJS",
+            "GeoCode",
+            "Google MAPS",
+            "Blade",
+            "DropzoneJS",
+            "Javascript",
+            "HTML5",
+            "CSS3",
+        ],
+        github: "https://github.com/juhan26/miniKontrakan", 
+        web: ""
     },
     
 ]

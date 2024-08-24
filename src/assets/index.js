@@ -15,6 +15,9 @@ import jumovie from './jumovie.png';
 import todoapp from './todoapp.png';
 import bookshelf from './bookshelf.png';
 import midtrans from './midtrans.png';
+import rentalmobil from './rentalmobil.png';
+import perpus from './perpus.png';
+import kontrakan from './kontrakan.png';
 
 export {
     css,
@@ -34,4 +37,7 @@ export {
     csharp,
     bookshelf,
     vbnet,
+    rentalmobil,
+    perpus,
+    kontrakan,
 }
