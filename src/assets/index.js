@@ -20,9 +20,13 @@ import perpus from './perpus.png';
 import kontrakan from './kontrakan.png';
 import laravel from './laravel.png';
 import php from './php.png';
+import bootstrap from './bootstrap.png';
+import bun from './bun.png';
 
 export {
     css,
+    bun,
+    bootstrap,
     php,
     laravel,
     midtrans,

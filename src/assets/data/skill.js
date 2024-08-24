@@ -1,5 +1,5 @@
 import {
-    react, tailwind, css, html, sass, ts, firebase, js, next, nodejs, vbnet, csharp, laravel, php
+    react, tailwind, css, html, sass, ts, firebase, js, next, nodejs, vbnet, csharp, laravel, php, bootstrap, bun
 } from ".."
 
 export const skill = [
@@ -11,7 +11,7 @@ export const skill = [
     {
         name: "PHP",
         img: php,
-        text: "PHP: Hypertext Preprocessor, or simply PHP, is a general-purpose scripting language primarily used for web development."
+        text: "PHP Hypertext Preprocessor, or simply PHP, is a general-purpose scripting language primarily used for web development."
     },
     {
         name: "Laravel",
@@ -29,6 +29,11 @@ export const skill = [
         text: "Tailwind CSS is a CSS framework that includes a set of utility classes for quickly building custom interfaces."
     },
     {
+        name: "Bootstrap",
+        img: bootstrap,
+        text: "Bootstrap utilizes Sass for a modular and customizable architecture."
+    },
+    {
         name: "HTML",
         img: html,
         text: "Hypertext Markup Language is used to create web pages. It is used to define the structure and content of a web page."
@@ -39,14 +44,19 @@ export const skill = [
         text: "Microsoft Visual Basic .NET is a tool for developing and building applications that run on the .NET Framework system, using the BASIC language."
     },
     {
-        name: "Typescript",
-        img: ts,
-        text: "TypeScript is a programming language that is an extension of JavaScript and adds features such as typed data and classes."
+        name: "Bun",
+        img: bun,
+        text: "Bun is a JavaScript runtime. Bun is a new JavaScript runtime built from scratch to serve the modern JavaScript ecosystem."
     },
     {
         name: "C#",
         img: csharp,
         text: "C# is a general-purpose high-level programming language supporting multiple paradigms."
+    },
+    {
+        name: "Typescript",
+        img: ts,
+        text: "TypeScript is a programming language that is an extension of JavaScript and adds features such as typed data and classes."
     },
     {
         name: "Javascript",
