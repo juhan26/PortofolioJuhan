@@ -1,5 +1,5 @@
 import {
-    react, tailwind, css, html, sass, ts, firebase, js, next, nodejs, vbnet, csharp
+    react, tailwind, css, html, sass, ts, firebase, js, next, nodejs, vbnet, csharp, laravel, php
 } from ".."
 
 export const skill = [
@@ -7,6 +7,16 @@ export const skill = [
         name: "ReactJs",
         img: react,
         text: "ReactJs is a JavaScript library used to build component-based interactive user interfaces."
+    },
+    {
+        name: "PHP",
+        img: php,
+        text: "PHP: Hypertext Preprocessor, or simply PHP, is a general-purpose scripting language primarily used for web development."
+    },
+    {
+        name: "Laravel",
+        img: laravel,
+        text: "Laravel is an open-source web application framework based on PHP, utilizing the Model-View-Controller (MVC) architectural pattern."
     },
     {
         name: "CSS",
@@ -18,8 +28,6 @@ export const skill = [
         img: tailwind,
         text: "Tailwind CSS is a CSS framework that includes a set of utility classes for quickly building custom interfaces."
     },
-
-
     {
         name: "HTML",
         img: html,
@@ -45,11 +53,11 @@ export const skill = [
         img: js,
         text: "Javascript is a programming language used to add interactivity and dynamic behavior to websites."
     },
-    // {
-    //     name: "NextJs",
-    //     img: next,
-    //     text: "NextJs is a Framework that makes building web apps easy, with automatic code splitting and server-rendered pages."
-    // },
+    {
+        name: "NextJs",
+        img: next,
+        text: "NextJs is a Framework that makes building web apps easy, with automatic code splitting and server-rendered pages."
+    },
     {
         name: "NodeJs",
         img: nodejs,

@@ -18,9 +18,13 @@ import midtrans from './midtrans.png';
 import rentalmobil from './rentalmobil.png';
 import perpus from './perpus.png';
 import kontrakan from './kontrakan.png';
+import laravel from './laravel.png';
+import php from './php.png';
 
 export {
     css,
+    php,
+    laravel,
     midtrans,
     react,
     html,
