@@ -22,9 +22,11 @@ import laravel from './laravel.png';
 import php from './php.png';
 import bootstrap from './bootstrap.png';
 import bun from './bun.png';
+import docker from './docker.png';
 
 export {
     css,
+    docker,
     bun,
     bootstrap,
     php,

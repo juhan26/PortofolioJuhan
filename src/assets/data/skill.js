@@ -1,5 +1,5 @@
 import {
-    react, tailwind, css, html, sass, ts, firebase, js, next, nodejs, vbnet, csharp, laravel, php, bootstrap, bun
+    react, tailwind, css, html, sass, ts, firebase, js, next, nodejs, vbnet, csharp, laravel, php, bootstrap, bun, docker
 } from ".."
 
 export const skill = [
@@ -47,6 +47,11 @@ export const skill = [
         name: "Bun",
         img: bun,
         text: "Bun is a JavaScript runtime. Bun is a new JavaScript runtime built from scratch to serve the modern JavaScript ecosystem."
+    },
+    {
+        name: "Docker",
+        img: docker,
+        text: "Docker is a platform designed to help developers build, share, and run container applications. "
     },
     {
         name: "C#",
