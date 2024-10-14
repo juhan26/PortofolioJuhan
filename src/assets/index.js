@@ -23,6 +23,7 @@ import php from './php.png';
 import bootstrap from './bootstrap.png';
 import bun from './bun.png';
 import docker from './docker.png';
+import desa from './desa.png';
 
 export {
     css,
@@ -49,5 +50,6 @@ export {
     vbnet,
     rentalmobil,
     perpus,
+    desa,
     kontrakan,
 }

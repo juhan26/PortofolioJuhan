@@ -26,6 +26,10 @@ const Skill = () => {
                     </Waypoint>
                 ))}
             </div>
+            <details>
+                <summary>read now</summary>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi animi nobis dolor tempore sit blanditiis sint obcaecati qui tempora debitis soluta corrupti nisi, aliquid quaerat unde a nam quos in!</p>
+            </details>
         </section>
     )
 }

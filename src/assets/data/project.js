@@ -1,4 +1,4 @@
-import { kulinerKita, animeList, lyriks, taskmate, jumovie, kaliabu, rahgadget, todoapp, bookshelf, midtrans, rentalmobil, perpus, kontrakan} from ".."
+import { jumovie, todoapp, bookshelf, midtrans, rentalmobil, perpus, kontrakan, desa} from ".."
 
 export const project = [
     {
@@ -21,6 +21,19 @@ export const project = [
         ],
         github: "https://github.com/juhan26/miniKontrakan", 
         web: ""
+    },
+    {
+        name: "Desa Genggelang (PlayIT Competition)",
+        img: desa,
+        desc: "This website contains information about Ganggelang Village, starting from location, culture, MSMEs, tourist attractions, village potential, village profile and history.",
+        tech: [
+            "React JS",
+            "Tailwind",
+            "Framer Motion",
+            "Aceternity UI",
+        ],
+        github: "https://github.com/juhan26/playit-competition", 
+        web: "https://desa-genggelang.vercel.app"
     },
     {
         name: "Sistem Perpustakaan",

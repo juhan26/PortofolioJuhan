@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import peoples from "../assets/peoples.svg";
+import peoples from "../assets/juhans.png";
 import people from "../assets/people.svg";
 import { skill } from "../assets/data/skill";
 import { Link } from "react-router-dom";
@@ -84,7 +84,7 @@ const AboutMe = ({ setVisible }) => {
             </div>
 
             <div className="hidden xl:block">
-                <img src={peoples} alt="" className="max-w-sm md:w-[350px] md:h-[350px]" />
+                <img src={peoples} alt="" className="max-w-sm md:w-[250px] md:h-[350px] rounded-lg" />
             </div>
         </section>
     );
