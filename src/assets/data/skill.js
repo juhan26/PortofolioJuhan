@@ -1,5 +1,5 @@
 import {
-    react, tailwind, css, html, sass, ts, firebase, js, next, nodejs, vbnet, csharp, laravel, php, bootstrap, bun, docker
+    react, tailwind, css, html, sass, ts, firebase, js, next, nodejs, vbnet, csharp, laravel, php, bootstrap, bun, docker, wordpress
 } from ".."
 
 export const skill = [
@@ -12,6 +12,11 @@ export const skill = [
         name: "PHP",
         img: php,
         text: "PHP Hypertext Preprocessor, or simply PHP, is a general-purpose scripting language primarily used for web development."
+    },
+    {
+        name: "Wordpress",
+        img: wordpress,
+        text: "WordPress is a versatile content management system originally designed for blogs, now supporting websites, forums, galleries, membership sites, LMS, and online stores."
     },
     {
         name: "Laravel",

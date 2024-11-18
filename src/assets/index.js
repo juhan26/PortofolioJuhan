@@ -25,8 +25,10 @@ import bun from './bun.png';
 import docker from './docker.png';
 import desa from './desa.png';
 import sinargemilang from './sinargemilanglombok.png';
+import wordpress from './wordpress.png';
 
 export {
+    wordpress,
     css,
     docker,
     bun,

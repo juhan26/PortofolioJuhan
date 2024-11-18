@@ -124,7 +124,7 @@ const AboutMe = ({ setVisible }) => {
       <img
         src={peoples}
         alt=""
-        className="max-w-sm md:w-[250px] md:h-[350px] rounded-lg"
+        className="max-w-sm md:w-full md:h-[400px] rounded-lg"
       />
     </div>
   </section>
