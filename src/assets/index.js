@@ -24,6 +24,7 @@ import bootstrap from './bootstrap.png';
 import bun from './bun.png';
 import docker from './docker.png';
 import desa from './desa.png';
+import sinargemilang from './sinargemilanglombok.png';
 
 export {
     css,
@@ -52,4 +53,5 @@ export {
     perpus,
     desa,
     kontrakan,
+    sinargemilang,
 }

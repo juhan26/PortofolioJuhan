@@ -77,7 +77,7 @@ const SocialMedia = () => {
             </motion.a>
             <motion.a
                 aria-label="check my linkedin"
-                href="https://www.linkedin.com/in/juhanda-kamal-3a2827278/"
+                href="https://www.linkedin.com/in/juhanda/"
                 className="cyan sm-item"
                 target="_blank"
                 initial={{ x: `-${hide2 + 200}px` }}

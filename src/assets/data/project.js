@@ -1,6 +1,21 @@
-import { jumovie, todoapp, bookshelf, midtrans, rentalmobil, perpus, kontrakan, desa} from ".."
+import { jumovie, todoapp, bookshelf, midtrans, rentalmobil, perpus, kontrakan, desa, sinargemilang} from ".."
 
 export const project = [
+    {
+        name: "E-Commerce Distribution Product",
+        img: sinargemilang,
+        desc: "This web application features a landing page that includes Ecommerce and can integration to Whatsapp with Messages. The messages bring item, item price and Link for the Product Item. The web applications also includes a Home (Beranda) page & Product (Product) page. And also this web application using WordPress with Woocommerce plugin, and a little code concoction to integrate via Whatsapp.",
+        tech: [
+            "Wordpress",
+            "PHP",
+            "Corpiva Template",
+            "Woocommerce Plugin",
+            "Responsive Design",
+            "Whatsapp Integration with Messages"
+        ],
+        github: "https://github.com/juhan26/cvsinargemilanglombok", 
+        web: "https://www.cvsinargemilanglombok.my.id/"
+    },
     {
         name: "Manajemen Kontrakan (Mini Project)",
         img: kontrakan,
