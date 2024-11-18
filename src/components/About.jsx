@@ -137,13 +137,21 @@ const Skills = ({ setVisible }) => {
   return (
     <section className="flex flex-col md:flex-row gap-10 px-4">
       <div className="max-w-sm md:w-[350px] hidden xl:block">
-        <motion.img
-          animate={{ scale: [0, 1] }}
-          transition={{ duration: 1 }}
-          src={people}
-          alt=""
-          className="max-w-sm md:w-[350px]"
-        />
+      <motion.img
+      animate={{ scale: [0, 1] }}
+      transition={{ duration: 1 }}
+      whileHover={{
+        scale: 1.1, 
+        rotate: 5, 
+        transition: { duration: 0.5, ease: "easeInOut" },
+      }}
+      whileTap={{
+        scale: 0.95,
+      }}
+      src={people}
+      alt=""
+      className="max-w-sm md:w-[350px] rounded-lg shadow-lg"
+    />
       </div>
       <div>
         <TypeAnimation
