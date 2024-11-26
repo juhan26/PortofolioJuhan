@@ -1,5 +1,5 @@
 import {
-    react, tailwind, css, html, sass, ts, firebase, js, next, nodejs, vbnet, csharp, laravel, php, bootstrap, bun, docker, wordpress
+    react, tailwind, css, html, sass, ts, firebase, js, next, nodejs, vbnet, csharp, laravel, php, bootstrap, bun, docker, wordpress, python, django
 } from ".."
 
 export const skill = [
@@ -82,5 +82,15 @@ export const skill = [
         name: "NodeJs",
         img: nodejs,
         text: "Node.js is a platform used to run JavaScript on the server. Node.js provides an efficient environment for running JavaScript-based applications on the server."
+    },
+    {
+        name: "Python",
+        img: python,
+        text: "Python is commonly used for developing websites and software, task automation, data analysis, and data visualisation."
+    },
+    {
+        name: "Django",
+        img: django,
+        text: "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design."
     },
 ]

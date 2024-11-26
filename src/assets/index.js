@@ -26,8 +26,12 @@ import docker from './docker.png';
 import desa from './desa.png';
 import sinargemilang from './sinargemilanglombok.png';
 import wordpress from './wordpress.png';
+import python from './python.png';
+import django from './django.webp';
 
 export {
+    python,
+    django,
     wordpress,
     css,
     docker,
