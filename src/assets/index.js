@@ -27,9 +27,15 @@ import desa from './desa.png';
 import sinargemilang from './sinargemilanglombok.png';
 import wordpress from './wordpress.png';
 import python from './python.png';
+import btix from './btix.png';
+import charity from './charity.png';
+import organizerBtix from './organizerBtix.png';
 import django from './django.webp';
 
 export {
+    organizerBtix,
+    charity,
+    btix,
     python,
     django,
     wordpress,

@@ -1,6 +1,48 @@
-import { jumovie, todoapp, bookshelf, midtrans, rentalmobil, perpus, kontrakan, desa, sinargemilang} from ".."
+import { jumovie, todoapp, bookshelf, midtrans, rentalmobil, perpus, kontrakan, desa, sinargemilang, btix, charity, organizerBtix} from ".."
 
 export const project = [
+    {
+        name: "Btix - Plaform Ticketing Online",
+        img: btix,
+        desc: "A modern web-based ticketing platform that allows Event Organizers to create and manage events, while Buyers can easily browse, book, and pay for tickets. The platform includes QR code e-ticket generation and seamless payment integration.",
+        tech: [
+            "Next.js",
+            "Tailwind CSS",
+            "TypeScript",
+            "Midtrans API",
+            "QR Code Generator"
+        ],
+        github: "", 
+        web: "https://btix.co.id/"
+    },
+    {
+        name: "Btix Organizer - Event Management Panel",
+        img: organizerBtix, 
+        desc: "An intuitive dashboard interface for Event Organizers on the Btix platform. This admin panel allows organizers to create, edit, and monitor events, manage ticket types and quotas, view sales analytics, and scan attendee tickets using QR code verification.",
+        tech: [
+            "Next.js",
+            "Tailwind CSS",
+            "TypeScript",
+            "Midtrans API",
+            "QR Code Scanner",
+        ],
+        github: "", 
+        web: "https://organizer.btix.co.id/" // ganti jika URL-nya berbeda
+    },    
+    {
+        "name": "NBDCHARITY - Donation Management System",
+        "img": charity,
+        "desc": "A charitable initiative supporting orphans through community-based programs, providing essential resources and educational support to improve their quality of life and future opportunities.",
+        "tech": [
+            "Next.js",
+            "React",
+            "Tailwind CSS",
+            "Payment Gateway Integration",
+            "Donation Management System"
+        ],
+        "github": "", 
+        "web": "https://sender.juhndaa.my.id/" // Replace with your actual website if available
+    },    
     {
         name: "E-Commerce Distribution Product",
         img: sinargemilang,
