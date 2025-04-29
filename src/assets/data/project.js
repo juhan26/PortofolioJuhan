@@ -40,24 +40,24 @@ export const project = [
             "Payment Gateway Integration",
             "Donation Management System"
         ],
-        "github": "", 
+        "github": "https://github.com/juhan26/image-uploader", 
         "web": "https://sender.juhndaa.my.id/" // Replace with your actual website if available
     },    
-    {
-        name: "E-Commerce Distribution Product",
-        img: sinargemilang,
-        desc: "This web application features a landing page that includes Ecommerce and can integration to Whatsapp with Messages. The messages bring item, item price and Link for the Product Item. The web applications also includes a Home (Beranda) page & Product (Product) page. And also this web application using WordPress with Woocommerce plugin, and a little code concoction to integrate via Whatsapp.",
-        tech: [
-            "Wordpress",
-            "PHP",
-            "Corpiva Template",
-            "Woocommerce Plugin",
-            "Responsive Design",
-            "Whatsapp Integration with Messages"
-        ],
-        github: "https://github.com/juhan26/cvsinargemilanglombok", 
-        web: "https://www.cvsinargemilanglombok.my.id/"
-    },
+    // {
+    //     name: "E-Commerce Distribution Product",
+    //     img: sinargemilang,
+    //     desc: "This web application features a landing page that includes Ecommerce and can integration to Whatsapp with Messages. The messages bring item, item price and Link for the Product Item. The web applications also includes a Home (Beranda) page & Product (Product) page. And also this web application using WordPress with Woocommerce plugin, and a little code concoction to integrate via Whatsapp.",
+    //     tech: [
+    //         "Wordpress",
+    //         "PHP",
+    //         "Corpiva Template",
+    //         "Woocommerce Plugin",
+    //         "Responsive Design",
+    //         "Whatsapp Integration with Messages"
+    //     ],
+    //     github: "https://github.com/juhan26/cvsinargemilanglombok", 
+    //     web: "https://www.cvsinargemilanglombok.my.id/"
+    // },
     {
         name: "Manajemen Kontrakan (Mini Project)",
         img: kontrakan,
