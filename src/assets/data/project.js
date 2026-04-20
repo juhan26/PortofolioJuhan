@@ -121,7 +121,7 @@ export const project = [
             "Donation Management System"
         ],
         "github": "https://github.com/juhan26/image-uploader", 
-        "web": "https://sender.juhndaa.my.id/" // Replace with your actual website if available
+        "web": "https://sender.juhanda.com/" // Replace with your actual website if available
     },    
     // {
     //     name: "E-Commerce Distribution Product",
