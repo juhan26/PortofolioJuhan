@@ -42,9 +42,9 @@ export const project = [
         web: "https://oceanbluesurfschool.com/"
     },
     {
-        name: "Tracea - Logistic Tracker",
+        name: "Tracea - Waste Tracker",
         img: tracea,
-        desc: "A comprehensive logistics and package tracking system featuring real-time map integration, driver monitoring, and detailed reporting analytics.",
+        desc: "An innovative waste management and tracking system designed to monitor waste collection, map environmental impacts, and optimize waste processing workflows with real-time data.",
         tech: [
             "Laravel",
             "React (Inertia)",
