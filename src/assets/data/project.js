@@ -1,4 +1,4 @@
-import { jumovie, todoapp, bookshelf, midtrans, rentalmobil, perpus, kontrakan, desa, sinargemilang, btix, charity, organizerBtix, mtrinjani, smansa, surfSchool, tracea, unizarJdih, unizarWeb, vertura} from ".."
+import { jumovie, todoapp, bookshelf, midtrans, rentalmobil, perpus, kontrakan, desa, sinargemilang, btix, charity, organizerBtix, mtrinjani, smansa, tracea, unizarJdih, unizarWeb, vertura} from ".."
 
 export const project = [
     {
@@ -28,21 +28,7 @@ export const project = [
         web: "https://sman1mataram.sch.id/"
     },
     {
-        name: "Ocean Blue Surf School",
-        img: surfSchool,
-        desc: "A professional surf school website providing surfing lessons, package bookings, and weather/surf spot information, powered by a robust backend for booking management.",
-        tech: [
-            "Next.js",
-            "Tailwind CSS",
-            "TypeScript",
-            "Supabase",
-            "Framer Motion",
-        ],
-        github: "", 
-        web: "https://oceanbluesurfschool.com/"
-    },
-    {
-        name: "Tracea - Waste Tracker",
+        name: "INTERNATIONAL COMPETITION - PROXOCORIS 2026",
         img: tracea,
         desc: "An innovative waste management and tracking system designed to monitor waste collection, map environmental impacts, and optimize waste processing workflows with real-time data.",
         tech: [
