@@ -1,8 +1,102 @@
-import { jumovie, todoapp, bookshelf, midtrans, rentalmobil, perpus, kontrakan, desa, sinargemilang, btix, charity, organizerBtix} from ".."
+import { jumovie, todoapp, bookshelf, midtrans, rentalmobil, perpus, kontrakan, desa, sinargemilang, btix, charity, organizerBtix, mtrinjani, smansa, surfSchool, tracea, unizarJdih, unizarWeb, vertura} from ".."
 
 export const project = [
     {
-        name: "Btix - Plaform Ticketing Online",
+        name: "Mt Rinjani Trekking",
+        img: mtrinjani,
+        desc: "A comprehensive trekking service platform for Mount Rinjani, featuring various tour packages, equipment rentals, and real-time booking capabilities for international tourists.",
+        tech: [
+            "Next.js",
+            "Tailwind CSS",
+            "TypeScript",
+            "Framer Motion",
+            "Lucide React",
+        ],
+        github: "", 
+        web: "https://mtrinjani.com/"
+    },
+    {
+        name: "SMANSA - Company Profile",
+        img: smansa,
+        desc: "A modern web-based Company Profile for SMAN 1 MATARAM, integrated with Learning Management System (LMS) and E-Library features for students and teachers.",
+        tech: [
+            "Next.js",
+            "Tailwind CSS",
+            "TypeScript",
+        ],
+        github: "", 
+        web: "https://sman1mataram.sch.id/"
+    },
+    {
+        name: "Ocean Blue Surf School",
+        img: surfSchool,
+        desc: "A professional surf school website providing surfing lessons, package bookings, and weather/surf spot information, powered by a robust backend for booking management.",
+        tech: [
+            "Next.js",
+            "Tailwind CSS",
+            "TypeScript",
+            "Supabase",
+            "Framer Motion",
+        ],
+        github: "", 
+        web: "https://oceanbluesurfschool.com/"
+    },
+    {
+        name: "Tracea - Logistic Tracker",
+        img: tracea,
+        desc: "A comprehensive logistics and package tracking system featuring real-time map integration, driver monitoring, and detailed reporting analytics.",
+        tech: [
+            "Laravel",
+            "React (Inertia)",
+            "Tailwind CSS",
+            "Mapbox API",
+            "Framer Motion",
+            "Vite",
+        ],
+        github: "", 
+        web: "https://tracker.juhanda.com/"
+    },
+    {
+        name: "JDIH Unizar - Document & Information",
+        img: unizarJdih,
+        desc: "Legal Documentation and Information Network (JDIH) for Universitas Islam Al-Azhar, designed for easy access to legal documents with advanced search and categorization.",
+        tech: [
+            "Next.js 15",
+            "Tailwind CSS",
+            "TypeScript",
+            "Chart.js",
+            "Lucide React",
+        ],
+        github: "", 
+        web: "https://jdih.unizar.ac.id/"
+    },
+    {
+        name: "Unizar Web - Official Campus Portal",
+        img: unizarWeb,
+        desc: "The official university portal providing news, information, and digital services for the academic community and prospective students.",
+        tech: [
+            "Next.js",
+            "Tailwind CSS",
+            "TypeScript",
+        ],
+        github: "", 
+        web: "https://dev.unizar.ac.id/"
+    },
+    {
+        name: "Vertura - Creative Agency Portfolio",
+        img: vertura,
+        desc: "A premium creative agency website showcasing various digital products, services, and high-quality portfolio pieces with smooth interactive animations.",
+        tech: [
+            "Next.js",
+            "Tailwind CSS",
+            "TypeScript",
+            "Framer Motion",
+        ],
+        github: "", 
+        web: "https://vertura.vercel.app/"
+    },
+    {
+        name: "Btix - Platform Ticketing Online",
         img: btix,
         desc: "A modern web-based ticketing platform that allows Event Organizers to create and manage events, while Buyers can easily browse, book, and pay for tickets. The platform includes QR code e-ticket generation and seamless payment integration.",
         tech: [

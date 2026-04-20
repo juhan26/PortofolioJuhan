@@ -31,6 +31,13 @@ import btix from './btix.png';
 import charity from './charity.png';
 import organizerBtix from './organizerBtix.png';
 import django from './django.webp';
+import mtrinjani from './mtrinjani.png';
+import smansa from './smansa.png';
+import surfSchool from './surf-school.png';
+import tracea from './tracea.png';
+import unizarJdih from './unizar-jdih.png';
+import unizarWeb from './unizar-web.png';
+import vertura from './vertura.png';
 
 export {
     organizerBtix,
@@ -66,4 +73,11 @@ export {
     desa,
     kontrakan,
     sinargemilang,
+    mtrinjani,
+    smansa,
+    surfSchool,
+    tracea,
+    unizarJdih,
+    unizarWeb,
+    vertura,
 }

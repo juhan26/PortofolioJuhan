@@ -72,35 +72,34 @@
             >
               Indonesia
             </a>
-            {" "} and I’m currently a Frontend Developer intern at a startup called{" "}
+            {" "} and I’m currently a Fullstack Developer at a company called{" "}
             <a
-              href="https://squadrones.ai/"
+              href="https://begawe.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#75C60C] font-semibold hover:underline transition duration-300 ease-in-out"
             >
-              Squadrones
+              PT. Begawe Inti Media
             </a>
-            , where I’m working with TypeScript to develop Web applications.{" "}
+            , where I’m working with Laravel and Next.js to develop Web applications.{" "}
             <br />
             <br />
-            I’m also learning Django, and Kotlin through self-exploration because
+            I’m also learning React Native, and DevOps through self-exploration because
             it’s fun and exciting for me. Besides that, I occasionally work on
-            freelance (Wordpress or Laravel) projects to expand my skills. <br />
+            freelance projects to expand my skills. <br />
             <br />
-            I’m a 3rd-grade student at{" "}
+            I’m a 2nd semester at{" "}
             <a
-              href="https://www.smkn2mataram.sch.id/"
+              href="https://universitasbumigora.ac.id/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-400 font-semibold"
             >
-              SMKN 2 Mataram
+              Universitas Bumigora
             </a>
             , majoring in Software Engineering (Rekayasa Perangkat Lunak). I have a
-            strong interest in Website and Android application development, and I’m
-            currently focusing on mastering Kotlin and other Fullstack technologies
-            (Django & Laravel).
+            strong interest in Web and Mobile application development, and I’m
+            currently focusing on make a product LMS (Learning Management System) and absensi online that can help school or university.
             <br />
             <br />
           </motion.p>
@@ -112,11 +111,11 @@
             duration: 0.5,
             delay: 1.5,
           }}
-          href="https://drive.google.com/file/d/1MVqzOcBZHhoE_ZfxagnXTX5DGs0taYZP/view?usp=sharing"
+          href="https://drive.google.com/file/d/1yxyhbebkZqd2vt6Ov_LZp6g8wUzrD8R5/view?usp=sharing"
           className="button"
           target="_blank"
         >
-          My Resume
+          My Curriculum Vitae
         </motion.a>
       </div>
     
