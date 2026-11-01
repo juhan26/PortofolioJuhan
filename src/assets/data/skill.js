@@ -1,5 +1,5 @@
 import {
-    react, tailwind, css, html, sass, ts, firebase, js, next, nodejs, vbnet, csharp, laravel, php, bootstrap, bun, docker, wordpress, python, django
+    react, tailwind, css, html, sass, ts, firebase, js, next, nodejs, vbnet, csharp, laravel, php, bootstrap, bun, docker, wordpress, python, django, nuxt, nestjs
 } from ".."
 
 export const skill = [
@@ -77,6 +77,16 @@ export const skill = [
         name: "NextJs",
         img: next,
         text: "NextJs is a Framework that makes building web apps easy, with automatic code splitting and server-rendered pages."
+    },
+    {
+        name: "NuxtJs",
+        img: nuxt,
+        text: "Nuxt is an intuitive Vue framework for building performant full-stack web applications and websites with confidence."
+    },
+    {
+        name: "NestJs",
+        img: nestjs,
+        text: "NestJS is a progressive Node.js framework for building efficient, reliable, and scalable enterprise server-side applications."
     },
     {
         name: "NodeJs",

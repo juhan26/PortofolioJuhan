@@ -37,8 +37,14 @@ import tracea from './tracea.png';
 import unizarJdih from './unizar-jdih.png';
 import unizarWeb from './unizar-web.png';
 import vertura from './vertura.png';
+import oceanbluesurfschool from './oceanbluesurfschool.png';
+import hiddenvalley from './hiddenvalley.png';
+import nuxt from './nuxt.svg';
+import nestjs from './nestjs.svg';
 
 export {
+    nuxt,
+    nestjs,
     organizerBtix,
     charity,
     btix,
@@ -78,4 +84,6 @@ export {
     unizarJdih,
     unizarWeb,
     vertura,
+    oceanbluesurfschool,
+    hiddenvalley,
 }

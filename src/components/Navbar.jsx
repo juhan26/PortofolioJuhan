@@ -36,7 +36,7 @@ const Navbar = () => {
                     <ul className="flex items-center gap-20 nav">
                         <li><Link to={'/technology'}>Technology</Link></li>
                         <li><Link to={'/project'}>Projects</Link></li>
-                        <li><a href="mailto:cukjuhan@gmail.com">Contact</a></li>
+                        <li><a href="mailto:juhndaa@gmail.com">Contact</a></li>
                     </ul>
                     <button aria-label='change theme' onClick={() => { setDark(!dark); localStorage.theme === 'dark' ? localStorage.setItem("theme", "light") : localStorage.setItem("theme", "dark") }} className="text-3xl text-yellow-500 dark:text-yellow-400">
                         {dark ?
@@ -68,7 +68,7 @@ const Navbar = () => {
                                     <li><Link onClick={() => setIsOpen(false)} to={'/'}>Home</Link></li>
                                     <li><Link onClick={() => setIsOpen(false)} to={'/technology'}>Technology</Link></li>
                                     <li><Link onClick={() => setIsOpen(false)} to={'/project'}>Projects</Link></li>
-                                    <li><a aria-label='open my instagram' href="mailto:cukjuhan@gmail.com">Contact</a></li>
+                                    <li><a aria-label='open my instagram' href="mailto:juhndaa@gmail.com">Contact</a></li>
                                 </ul>
                             </>}
                     </div>

@@ -121,7 +121,7 @@ const Home = () => {
             <FavProjects />
             <section className="text-gray-800 dark:text-white flex flex-col justify-center items-center md:pt-28 md:pb-16 py-28 md:h-[80vh] max-h-[800px]">
                 <h3 className='text-4xl font-semibold'>Interest To Working Together ?</h3>
-                <a href="mailto:cukjuhan@gmail.com" className="text-base md:text-sm rounded-full px-4 py-2 border-2 border-blue-500 hover:bg-blue-900 hover:opacity-90 hover:text-white mt-8">Contact Me</a>
+                <a href="mailto:juhndaa@gmail.com" className="text-base md:text-sm rounded-full px-4 py-2 border-2 border-blue-500 hover:bg-blue-900 hover:opacity-90 hover:text-white mt-8">Contact Me</a>
             </section>
         </main>
     )

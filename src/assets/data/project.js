@@ -1,6 +1,32 @@
-import { jumovie, todoapp, bookshelf, midtrans, rentalmobil, perpus, kontrakan, desa, sinargemilang, btix, charity, organizerBtix, mtrinjani, smansa, tracea, unizarJdih, unizarWeb, vertura} from ".."
+import { jumovie, todoapp, bookshelf, midtrans, rentalmobil, perpus, kontrakan, desa, sinargemilang, btix, charity, organizerBtix, mtrinjani, smansa, tracea, unizarJdih, unizarWeb, vertura, oceanbluesurfschool, hiddenvalley} from ".."
 
 export const project = [
+    {
+        name: "Btix - Platform Ticketing Online",
+        img: btix,
+        desc: "A modern web-based ticketing platform that allows Event Organizers to create and manage events, while Buyers can easily browse, book, and pay for tickets. The platform includes QR code e-ticket generation and seamless payment integration.",
+        tech: [
+            "Next.js",
+            "Tailwind CSS",
+            "TypeScript",
+            "Midtrans API",
+            "QR Code Generator"
+        ],
+        github: "",
+        web: "https://btix.co.id/"
+    },
+    {
+        name: "Ocean Blue Surf School",
+        img: oceanbluesurfschool,
+        desc: "A professional surf school and guiding platform in Kuta Lombok, featuring surf lesson packages, instructor profiles, photo galleries, and online booking for all skill levels.",
+        tech: [
+            "Next.js",
+            "Tailwind CSS",
+            "TypeScript",
+        ],
+        github: "",
+        web: "https://www.oceanbluesurfschool.com/"
+    },
     {
         name: "Mt Rinjani Trekking",
         img: mtrinjani,
@@ -82,18 +108,17 @@ export const project = [
         web: "https://vertura.vercel.app/"
     },
     {
-        name: "Btix - Platform Ticketing Online",
-        img: btix,
-        desc: "A modern web-based ticketing platform that allows Event Organizers to create and manage events, while Buyers can easily browse, book, and pay for tickets. The platform includes QR code e-ticket generation and seamless payment integration.",
+        name: "Hidden Valley Retreat Lombok",
+        img: hiddenvalley,
+        desc: "A luxury off-plan villa resort website in West Lombok, featuring boutique villa collections, interactive masterplans, investment ROI calculator, and direct enquiry channels.",
         tech: [
-            "Next.js",
+            "React",
             "Tailwind CSS",
             "TypeScript",
-            "Midtrans API",
-            "QR Code Generator"
+            "Vite",
         ],
-        github: "", 
-        web: "https://btix.co.id/"
+        github: "",
+        web: "https://hiddenvalleyretreatlombok.com/"
     },
     {
         name: "Btix Organizer - Event Management Panel",
